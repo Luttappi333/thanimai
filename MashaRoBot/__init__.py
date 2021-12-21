@@ -211,9 +211,6 @@ else:
 
         LOGGER.warning("Can't connect to SpamWatch!")
 
-#install aiohttp session
-print("[MashaRoBot]: Initializing AIOHTTP Session")
-aiohttpsession = ClientSession() 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
