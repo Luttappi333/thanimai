@@ -10,12 +10,13 @@ from telethon import events
 from pymongo import MongoClient
 from MashaRoBot import telethn
 
-db = client["darkuserbot"]
-gbanned = db.gban
 MONGO_DB_URI = "mongodb+srv://Izazkhan:izazkhan@cluster0.hlltt.mongodb.net/project0?retryWrites=true&w=majority"
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
+
+db = client["darkuserbot"]
+gbanned = db.gban
 
 def register(**args):
     """ Registers a new message. """
