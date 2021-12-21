@@ -5,8 +5,11 @@ from telethon.tl import *
 from MashaRoBot import telethn as tbot
 from MashaRoBot.events import register
 BOT_ID = "2052309535"
+MONGO_DB_URI = "mongodb+srv://Izazkhan:izazkhan@cluster0.hlltt.mongodb.net/project0?retryWrites=true&w=majority"
+
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
+
 db = client["darkuserbot"]
 approved_users = db.approve
 dbb = client["darkuserbot"]
