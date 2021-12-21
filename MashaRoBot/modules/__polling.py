@@ -2,10 +2,9 @@ from pymongo import MongoClient
 from telethon import *
 from telethon.tl import *
 
-from MashaRoBot import BOT_ID, MONGO_DB_URI
 from MashaRoBot import telethn as tbot
 from MashaRoBot.events import register
-
+BOT_ID = "2052309535"
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
 db = client["darkuserbot"]
