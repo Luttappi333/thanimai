@@ -58,7 +58,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-TOKEN = "2137725594:AAGY89yUF9_PW1R1gBxThpYUJc3d8WjC_Ic"
+TOKEN = "2037023986:AAE5uokB2US2zZbLctpx68IeloldP4lAF5Q"
 PM_START_TEXT = """ 
 `Hellow`
 `I'm here to help you manage your groups! Hit` *Commands* `button below to find out more about how to use me to my full potential.` 
