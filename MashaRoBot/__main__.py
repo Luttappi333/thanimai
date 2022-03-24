@@ -130,7 +130,7 @@ Commands available:
 
 
 
-"
+"""
 
 
 MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
