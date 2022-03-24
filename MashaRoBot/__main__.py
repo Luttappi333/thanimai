@@ -60,35 +60,77 @@ def get_readable_time(seconds: int) -> str:
 
 TOKEN = "2037023986:AAE5uokB2US2zZbLctpx68IeloldP4lAF5Q"
 PM_START_TEXT = """ 
-`Hellow`
-`I'm here to help you manage your groups! Hit` *Commands* `button below to find out more about how to use me to my full potential.` 
+──[ Tᕼᴀɴʜᴍᴀʜ ](https://telegra.ph/file/c47b253a6eb7a52eb5572.mp4)
+
+Hᴇʏ 👋!,
+
+I ᴀᴍ A Aᴅᴠᴀɴᴄᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Wʜᴛᕼ A Lᴏᴛ Oғ Pᴏᴡᴇʀғᴜʟ Fᴇᴀᴛᴜʀᴇs.
+
+───────────────────────
+
+×  {} ᴜsᴇʀs, ᴀᴄʀᴏss {} ᴄᕼᴀᴛs..
+
+───────────────────────
+
+➛ Tʀʏ Tᕼᴇ Hᴇʟᴘ Bᴜᴛᴛᴏɴs Bᴇʟᴏᴡ Tᴏ Kɴᴏᴡ Mʏ Aʙʜʟʜᴛʜᴇs ××
 """
+
 buttons = [
+
     [
+
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/FINAL_STRIKER_BOT?startgroup=true"),
+
+            text="➕️ ADD TO YOUR GROUP ➕️", url="http://t.me/Thanimaibot?startgroup=true"),
+
     ],
+
     [
-        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/TheTelegrampro"),
-    ],
-    [
+
         InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/Thanimaibots"),
+
         InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Thanimaisupport"),
+
     ],
+
     [
-        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
-        ),
+
+        InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"),
+
+        InlineKeyboardButton(text="🤖𝗔𝗕𝗢𝗨𝗧 𝗠𝗘🤖", callback_data="masha_"),
+
     ],
+
+    [
+
+        InlineKeyboardButton(
+
+            text="🛠️𝐇𝐞𝐥𝐩  𝐂𝐨𝐦𝐦𝐚𝐧𝐝🛠️", callback_data="help_back"
+
+        ),
+
+    ],
+
 ]
 
-
-
 HELP_STRINGS = """
-`Hi.. I'm` [🙋‍♀️](https://telegra.ph/file/7aba4b67279c844454b4c.jpg)
-`Click on the buttons below to get documentation about specific modules..`"""
+
+Hey There! My name is Thanimai arasan.
+
+I'm here to help you manage your groups!
+
+Commands available:
+
+× /start: Start the bot
+
+× /help: Give's you this message.
+
+× /donate: Information related on how to support my creator
+
+
+
+
+"
 
 
 MASHA_IMG = "https://telegra.ph/file/7aba4b67279c844454b4c.jpg"
