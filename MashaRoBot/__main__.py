@@ -6,7 +6,7 @@ from sys import argv
 from typing import Optional
 from pyrogram import filters, idle
 
-from SophiaBot import (
+from MashaRoBot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,10 +25,10 @@ from SophiaBot import (
     updater,
 )
 
-from SophiaBot.modules import ALL_MODULES
-from SophiaBot.modules.helper_funcs.chat_status import is_user_admin
-from SophiaBot.modules.helper_funcs.misc import paginate_modules
-from SophiaBot.modules.sudoers import bot_sys_stats
+from MashaRoBot.modules import ALL_MODULES
+from MashaRoBot.modules.helper_funcs.chat_status import is_user_admin
+from MashaRoBot.modules.helper_funcs.misc import paginate_modules
+from MashaRoBot.modules.sudoers import bot_sys_stats
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
